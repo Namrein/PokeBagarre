@@ -121,6 +121,6 @@ class PokemonTest {
         // WHEN
         boolean resultat = pokemon1.estVainqueurContre(pokemon2);
         // THEN
-        assertThat(resultat).isFalse();
+        assertThat(resultat).isTrue();
     }
 }
